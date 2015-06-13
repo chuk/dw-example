@@ -1,3 +1,6 @@
+JUST THE SAMPLE APP FROM https://github.com/dropwizard/dropwizard
+
+
 # Introduction
 
 The drop wizard example application was developed to, as its name implies, provide examples of some of the features
@@ -46,5 +49,5 @@ To test the example application run the following commands.
 * To post data into the application.
 
 	curl -H "Content-Type: application/json" -X POST -d '{"fullName":"Other Person","jobTitle":"Other Title"}' http://localhost:8080/people
-	
+
 	open http://localhost:8080/people
